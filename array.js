@@ -12,3 +12,4 @@ const products = {
     '1': 56,
     '2': 87
 }
+// N.B like a object but array

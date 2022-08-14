@@ -10,8 +10,8 @@ function factorial(i){
     }
     return i * factorial(i-1);
 }
-
 const result = factorial(5);
+console.log(result);  // print: 120
 /* 
     5 * factorial(4)
     5 * 4 * factorial(3)

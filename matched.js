@@ -1,3 +1,4 @@
+// 'for of'/ Methods of 'for of'
 const numbers = [45, 65, 23, 98, 19];
 
 // for(let i = 0; i < numbers.length; i++){
@@ -10,7 +11,7 @@ for(const number of numbers){
 }
 
 const products = [
-    {id: 1, name: 'xiami phone One night', price: 19000},
+    {id: 1, name: 'Xiaomi phone One night', price: 19000},
     {id: 2, name: 'iphone', price: 19000},
     {id: 3, name: 'mac book air', price: 119000},
     {id: 4, name: 'lenovo yoga laptop 2025', price: 19000},
@@ -34,6 +35,5 @@ function matchedProducts (products, search){
     }
     return matched;
 }
-
 const result = matchedProducts(products, 'laptop');
 console.log(result);

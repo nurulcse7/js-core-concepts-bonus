@@ -1,11 +1,12 @@
+// You can declare array, object, function etc in object
 const nayok = {
     name: 'Sakib Khan',
     id: 121,
     address: 'movie cinema',
     isSingle: true,
     friends: ['Apu', 'Raaz', 'Salman', 'aamir'],
-    movies: [{name: 'no. 1', year: 2015}, {name: 'king khan', year: 2018}],
-    act: function(){
+    movies: [{ name: 'no. 1', year: 2015 }, { name: 'king khan', year: 2018 }],
+    act: function () {
         console.log('acting like Sakib khan');
     },
     car: {
@@ -19,9 +20,8 @@ const nayok = {
         }
     }
 }
-
-// console.log(student.car);
-console.log(nayok.act);
-nayok.act();
+// console.log(nayok.car);
+console.log(nayok.act); // [Function: act]
+nayok.act();  // acting like Sakib khan
 
 

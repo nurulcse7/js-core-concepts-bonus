@@ -16,7 +16,7 @@ function sum(i){
     return i + sum(i-1);
 }
 const result = sum(5);
-console.log(result);
+console.log(result);  // print: 15
 
 /* 
     5 + sum(4)
